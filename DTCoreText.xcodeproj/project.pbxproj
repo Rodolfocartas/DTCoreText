@@ -929,6 +929,13 @@
 			remoteGlobalIDString = A78381C31963F8D700AF09D3;
 			remoteInfo = "DTAnimatedGIF Demo";
 		};
+		E27F05C01A1690490062888D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A785701C17FAA69D0080AB0A /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAC284E619B84B5F0010C385;
+			remoteInfo = "DTActionSheet Demo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -1482,6 +1489,7 @@
 				A781FEB117FAABE500A1F5E8 /* DTReachability Demo.app */,
 				A781FEAF17FAABE500A1F5E8 /* DTSidePanels Demo.app */,
 				A781FEB317FAABE500A1F5E8 /* DTZipArchive.app */,
+				E27F05C11A1690490062888D /* DTActionSheet Demo.app */,
 				A781FE9317FAABE500A1F5E8 /* Unit Tests.xctest */,
 			);
 			name = Products;
@@ -2441,6 +2449,13 @@
 			remoteRef = A7F0C43F1965A0D600D7FAFB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E27F05C11A1690490062888D /* DTActionSheet Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTActionSheet Demo.app";
+			remoteRef = E27F05C01A1690490062888D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -3034,6 +3049,7 @@
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DTCoreText;
 				SDKROOT = iphoneos;
@@ -3096,6 +3112,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = DTCoreText;
 				PUBLIC_HEADERS_FOLDER_PATH = ../../DTCoreText;
 				SDKROOT = iphoneos;
@@ -3160,6 +3177,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Test/UnitTest-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -3238,6 +3256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
